@@ -3,18 +3,29 @@ body {
     background-repeat:no-repeat;
     background-size: 100%;
     background-position: top;
-    background-color: #000000;
+    background-color: #030406;
     color: white;
     font-family: 'Josefin Slab', serif;
 }
 
+.header {
+    padding-bottom: 0.5vh;
+}
+
 .header p {
-    font-size: 2vw;
+    margin-bottom: 1vh;
+    font-size: 4vw;
     padding-left: 10%;
+    padding-bottom: 0.5vh;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
 }
 
 .menu p {
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
 
 i {
